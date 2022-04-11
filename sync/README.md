@@ -20,7 +20,11 @@ Higher-level synchronization is better done via `channels` and communication.
 **Index：**
 
 ---
+## NoCopy
+A xxx must not be copied after first use  
+Reason: [1](https://bronzesword.medium.com/what-does-nocopy-after-first-use-mean-in-golang-and-how-12396c31de47), [2](https://studygolang.com/articles/21305)
 
+---
 ## type `Locker`
 
 A `Locker` represents an object that can be locked and unlocked.
